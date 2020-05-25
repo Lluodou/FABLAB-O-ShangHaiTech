@@ -1,0 +1,29 @@
+Additive manufacturing:
+	3D Printing
+
+Workflow of 3D Printing: 3D Design File -> Slicing -> Printing
+3D Printing Technologies: 
+	SLA: liquid resin + laser beam (光固化)
+	DLP: diital light processing. liquid resin + light (光固化)
+	SLS: selective laser sintering. Nylon powder + laser beam
+	FDM: Fuse Deposition modeling. Plastic filament + Heated nozzle
+
+FDM printing material: 
+	ABS (Acrlonitrile butadiene styrene)
+	PLA (Polylactic Acid)
+	Nylon (PA, Polyamides)
+	Rubber (TPE, Thermoplastic Elastomers)
+
+FDM Printing  的组成:
+	Nozzle
+	Print Speed (related to flow speed)
+	Flow Speed
+	Headbed Temperature (ABS 需要热的底)
+
+Design rules for your printer:
+	Wall Thickness/Shell Thickness (nozzle size)
+	Overhang (45 degree rule) 打印过程中向外扩张的角度不能大于45度，否则材料会脱落。
+	Layer Height (越高越慢), layer height必须小于nozzle size
+	Bridging: 可以在空中print，但需要两侧的支撑。print的时候会快速喷出冷气使材料快速冷却。
+	Filling: model内部是要填充的，比例多为10%,20%,30%。
+	Build plate adhesion: model 必须要连接到底面上，如果连接不牢可能会倾倒。
