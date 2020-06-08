@@ -1,0 +1,14 @@
+Arduino （一种单片机） 介绍
+	Digital I/O Pins:14 (of which 6 provide PWM output)
+	Analog input: 6
+	Voltage: 5V
+Software : Arduino IDE
+Shield: 外壳
+
+Function:
+	pinMode( (Integer) , Input/Output)
+	digitalRead( (Integer) )
+	digitalWrite()
+	analogRead(sensorpin)
+	analogWrite(name_of_the_pin,name_of_the_value) (0~255)
+对于模拟信号：将数值转化为0~1023之间的整数
