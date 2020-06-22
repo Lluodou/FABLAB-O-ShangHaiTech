@@ -121,7 +121,8 @@ Another picture.
 
 <h2>Arduino</h2>
 
-<p>I don&#39;t do this individual assignment, it is a part of my final project.</p>
+<p>I don&#39;t do this individual assignment, it is a part of my final project.
+See &quot;Final project, Design in software&quot;</p>
 
 <h2>Machine</h2>
 
@@ -157,12 +158,9 @@ And another board to be the base of the last entity.
 So we can let the value of X axis and Y axis input be the increment (or decrement) of the angle. What we need is to map the original input to increment of the angle.
 First, initialized the value and the statement of the software.
 <img alt="Pricture38" title="Picture38" src="https://raw.githubusercontent.com/Lluodou/Lluodou.github.io/master/final%20project/temp7.jpg"/>
-
 Then read the input.
 <img alt="Pricture39" title="Picture39" src="https://raw.githubusercontent.com/Lluodou/Lluodou.github.io/master/final%20project/temp8.jpg"/>
-
 And then deal with K axis signal. If fire_if=1, then trigger rotate, shoot the rubber band.
-
 <img alt="Pricture40" title="Picture40" src="https://raw.githubusercontent.com/Lluodou/Lluodou.github.io/master/final%20project/temp9.jpg"/>
 Then change the elevation angle. The range of valid angle is 0 degree to 90 degree. When don&#39;t touch the joystick, the input of Y axis is 508~520, and the most common case is 514. So mapping function looks like this. If the angle after change is still valid, then let the angle change.
 <img alt="Pricture41" title="Picture41" src="https://raw.githubusercontent.com/Lluodou/Lluodou.github.io/master/final%20project/temp10.jpg"/>
