@@ -32,7 +32,7 @@ Just Download, and you can get files.
 
 孙震寰 Sun Zhenhuan
 
-# 博客网站 blog Website
+# 博客网站 Blog website
 
 https://lluodou.github.io/
 
